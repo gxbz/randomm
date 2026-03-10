@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>About</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
@@ -10,21 +10,27 @@
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
+    <a href="random.html">Random</a>
   </nav>
 
-  <!-- Full-page content + spotlight -->
   <div class="graph-area">
-    <div class="spotlight"></div>
     <div class="center-box">
-      <h1>About Me</h1>
-      <p>This is my About page.</p>
-    </div>
-  </div>
+      <h1>Hello y'all!</h1>
 
-  <!-- Bubble background GIF -->
-  <img src="pictures/bubble.gif" class="bubble-bg" alt="Bubbles">
+      <p>
+        Hi, I'm <span class="about-link" onclick="toggleAbout()">Gabriella</span>.
+      </p>
 
-  <!-- JS for spotlight effect -->
+      <div id="aboutBox" class="about-popup">
+        I am just experimenting more on this, give me a minute please.
+      </div>
+
+    </div> <!-- center-box -->
+
+  </div> <!-- graph-area -->
+
+  <img src="pictures/water.gif" class="water-bg" alt="water">
+
   <script src="script.js"></script>
 </body>
 </html>
